@@ -76,6 +76,26 @@ code {
     font-family: 'Courier New', monospace;
     background: #fff880;
 }
+#g-timeline-laptop, #g-timeline-full-size, #g-timeline-mobile {
+    display: none;
+}
+@media (max-width: 490px) {
+    #g-timeline-mobile {
+        display: block;
+    }
+}
+
+@media (min-width: 490px) and (max-width: 620px) {
+    #g-timeline-laptop {
+        display: block;
+    }
+}
+
+@media (min-width: 620px)  {
+    #g-timeline-full-size {
+        display: block;
+    }
+}
 
 /* margin on mobile */
 @media (max-width: 640px) {

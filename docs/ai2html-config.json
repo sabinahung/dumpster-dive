@@ -1,0 +1,16 @@
+{
+    "fonts": [
+        {
+            "aifont": "AppleColorEmoji",
+            "family": "Apple Color Emoji",
+            "weight": "400",
+            "style": ""
+        },
+        {
+            "aifont": "Poppins-Regular",
+            "family": "Poppins Regular",
+            "weight": "400",
+            "style": ""
+        }
+    ]
+}
