@@ -9,7 +9,7 @@ This project requires some wrangling with YouTube API and it hasn't been easy to
 
 After understanding how to query the API, another thing to be mindful of was the daily quota you have each day to request for info from the API. I realized much later working on this project that the quota you have left seem to affect the amount of information you could get out of the API. It's embarrassing but you could check the error code in my `youtubeAPI.ipynb` for reference. It returns different number of total result whenever I move on to the next page of the results.
 ## Data analysis 
-After saving the information I need to a dictionary, I sieve through them with `str.contains`. (It is also about when I realize things might look a little sus.)
+After saving the information I need to a dictionary, I sieve through them with `str.contains` (It is also about when I realize things might look a little sus)
 
 ## What I learned
 - Technical:
