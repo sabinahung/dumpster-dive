@@ -5,7 +5,7 @@ This project was initially set to find out whether dumpster diving is on the ris
 ## Findings
 Vidoes on dumpster diving peaked in 2023
 ## Data collection 
-This project requires some wrangling with YouTube API and it hasn't been easy to figure out how to use it. This is my second try attempting to understand how it works. Thankfully, some friendly dude on YouTube posted this [tutorial](https://www.youtube.com/watch?v=th5_9woFJmk&t=398s) that walks you through step by step on how to use YouTube API with Python.
+This project requires some wrangling with YouTube API and it hasn't been easy to figure out how to use it. This is my second attempt trying to understand how it works. Thankfully, some friendly dude on YouTube posted this [tutorial](https://www.youtube.com/watch?v=th5_9woFJmk&t=398s) that walks you through step by step on how to use YouTube API with Python.
 
 After understanding how to query the API, another thing to be mindful of was the daily quota you have each day to request for info from the API. I realized much later working on this project that the quota you have left seem to affect the amount of information you could get out of the API. It's embarrassing but you could check the error code in my `youtubeAPI.ipynb` for reference. It returns different number of total result whenever I move on to the next page of the results.
 ## Data analysis 
